@@ -24,13 +24,18 @@ printf "${BLUE}%s${NORMAL}\n" "Updating Oh My Zsh"
 cd "$ZSH"
 if git pull --rebase --stat origin master
 then
+
+
+
+
+ 
+                               
+
   printf '%s' "$GREEN"
-  printf '%s\n' '         __                                     __   '
-  printf '%s\n' '  ____  / /_     ____ ___  __  __   ____  _____/ /_  '
-  printf '%s\n' ' / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ '
-  printf '%s\n' '/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / '
-  printf '%s\n' '\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  '
-  printf '%s\n' '                        /____/                       '
+  printf '%s\n' '   ___           __    _______ '
+  printf '%s\n' '  / _ \___ _____/ /__ / __/ _ )'
+  printf '%s\n' ' / // / _ `/ __/  '_// _// _  |'
+  printf '%s\n' '/____/\_,_/_/ /_/\_\/_/ /____/'
   printf "${BLUE}%s\n" "Hooray! Oh My Zsh has been updated and/or is at the current version."
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "To keep up on the latest news and updates, follow us on twitter: https://twitter.com/ohmyzsh"
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "Get your Oh My Zsh swag at:  https://shop.planetargon.com/collections/oh-my-zsh"
