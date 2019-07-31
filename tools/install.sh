@@ -95,6 +95,11 @@ setup_ohmyzsh() {
 		exit 1
 	}
 
+	git clone --depth=1 --branch "$BRANCH" "https://github.com/zsh-users/zsh-syntax-highlighting.git" "$ZSH/zsh-syntax-highlighting" || {
+		error "git clone of oh-my-zsh repo failed"
+		exit 1
+	}
+
 	echo
 }
 
@@ -130,6 +135,7 @@ setup_zshrc() {
 export ZSH=\"$ZSH\"
 " ~/.zshrc > ~/.zshrc-omztemp
 	mv -f ~/.zshrc-omztemp ~/.zshrc
+	echo "source ${(q-)PWD}/$ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 	echo
 }
