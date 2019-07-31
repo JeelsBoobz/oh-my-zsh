@@ -21,7 +21,7 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh) and follow [@ohmyzsh](https://
 __Disclaimer:__ _Oh My Zsh works best on macOS and Linux._
 
 * Unix-like operating system (macOS or Linux)
-* [Zsh](https://www.zsh.org) should be installed (v4.3.9 or more recent). If not pre-installed (`zsh --version` to confirm), check the following instruction here: [Installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+* [Zsh](https://www.zsh.org) should be installed (v4.3.9 or more recent). If not pre-installed (`zsh --version` to confirm), check the following instruction here: [Installing ZSH](https://github.com/JeelsBoobz/oh-my-zsh/wiki/Installing-ZSH)
 * `curl` or `wget` should be installed
 * `git` should be installed
 
@@ -32,13 +32,13 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/JeelsBoobz/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/JeelsBoobz/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### Manual inspection
@@ -48,7 +48,7 @@ that by downloading the install script first, looking through it so everything l
 then running it:
 
 ```shell
-curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+curl -Lo install.sh https://raw.githubusercontent.com/JeelsBoobz/oh-my-zsh/master/tools/install.sh
 sh install.sh
 ```
 
