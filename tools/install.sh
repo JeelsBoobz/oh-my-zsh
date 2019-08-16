@@ -135,7 +135,7 @@ setup_zshrc() {
 export ZSH=\"$ZSH\"
 " ~/.zshrc > ~/.zshrc-omztemp
 	mv -f ~/.zshrc-omztemp ~/.zshrc
-	echo "source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+	echo "source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 	echo
 }
